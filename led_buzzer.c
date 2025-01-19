@@ -11,33 +11,12 @@
 #include "pico/stdlib.h"
 #include <string.h>
 #include "pico/bootrom.h"
+#include "start_buzzer.h"
 
 //Definição dos Pinos dos LEDs e do Buzzer
 #define LED_G 11
 #define LED_B 12
 #define LED_R 13
-const uint buzzer_pin = 21;
-
-#define BUZZER_FREQ_HZ 3200
-#define HIGH 1
-#define LOW 0
-
-void start_buzzer(uint32_t duration_ms) {
-  uint32_t period = 1000000 / BUZZER_FREQ_HZ;
-  uint32_t half_period = period / 2;
-  uint32_t end_time = time_us_32() + (duration_ms * 1000);
-
-  gpio_set_dir(buzzer_pin, GPIO_OUT);
-
-  while (time_us_32() < end_time) {
-    gpio_put(buzzer_pin, HIGH);
-    sleep_us(half_period);
-    gpio_put(buzzer_pin, LOW);
-    sleep_us(half_period);
-  }
-
-  gpio_put(buzzer_pin, LOW);
-}
 
 void led_rgb_put(bool r, bool g, bool b) {
   gpio_put(LED_R, r);
