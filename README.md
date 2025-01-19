@@ -1,36 +1,44 @@
 # Controle de GPIOs com BitDogLab e RP2040
 
+Tarefa 2 Aula Síncrona 14/01/2025 EmbarcaTech
+
+## Integrantes
+
+Welton Almeida de Matos - TIC370100649
+Hebert Costa Vaz Santana - TIC370101235
+
 Este projeto implementa o controle de LEDs RGB e um buzzer usando a placa educacional **BitDogLab** com o microcontrolador **RP2040**. Os periféricos são controlados através de comandos enviados pela interface UART, permitindo interatividade entre o usuário e o sistema embarcado.
 
 ---
 
-## 🛠️ Funcionalidades
+## Funcionalidades
 
 - Controle individual das cores do LED RGB:
-  - **Verde** (GPIO 11)
-  - **Azul** (GPIO 12)
-  - **Vermelho** (GPIO 13)
+  - **Verde** **green** (GPIO 11)
+  - **Azul** **blue** (GPIO 12)
+  - **Vermelho** **red**(GPIO 13)
 - Controle combinado dos LEDs:
-  - **Branco**: Acende todos os LEDs simultaneamente.
-  - **Desligar**: Apaga todos os LEDs.
+  - **Branco** **white**: Acende o LED RGB da placa as 3 cores juntas, provocando a cor branca
+  - **Desligar** **off**: Apaga todos os LEDs.
 - Ativação do buzzer (GPIO 21) por 2 segundos.
+  - **Buzzer**: Faz o sinal sonoro do buzzer da placa
 - Reboot do sistema para habilitar o modo de gravação.
 
 ---
 
-## 🔗 Teste Online
+## Teste Online
 
-Você pode testar o circuito diretamente no simulador Wokwi clicando no botão abaixo:
+O Circuito pode ser testado no Wokwi através do link abaixo:
 
-[![Teste no Wokwi](https://img.shields.io/badge/Simular%20no%20Wokwi-Testar%20Online-brightgreen)](https://wokwi.com/projects/420104833635443713)
+[![Teste no Wokwi](https://wokwi.com/projects/420534537166124033)
 
 ---
 
-## 🎥 Vídeo Demonstrativo
+## Vídeo Demonstrativo
 
-Assista ao vídeo explicativo do projeto e veja os resultados obtidos:
+Vídeo mostrando na placa BitDogLab o funcionamento do Código:
 
-[![Vídeo Demonstrativo](https://img.shields.io/badge/Assistir-Vídeo-blue)](https://www.dropbox.com/scl/fi/jevku9wjif9zy1iechuxd/VID-20250109-WA0044.mp4?rlkey=4cb9qag7ziis20u8ivjgtvmdk&dl=0)
+[![Vídeo Demonstrativo de Funcionamento](https://drive.google.com/file/d/1GrivlEKLn7yDKzqDptErn85aSMD7J6Gw/view?usp=sharing)
 
 ---
 

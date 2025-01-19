@@ -1,8 +1,18 @@
+/*
+  Tarefa 2 - Aula Síncrona 14/01
+  Grupo 7
+  Subgrupo 6
+  
+  Welton Almeida de Matos - TIC370100649
+  Hebert Costa Vaz Santana - TIC370101235
+*/
+
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include <string.h>
 #include "pico/bootrom.h"
 
+//Definição dos Pinos dos LEDs e do Buzzer
 #define LED_G 11
 #define LED_B 12
 #define LED_R 13
@@ -63,6 +73,7 @@ void process_command(char *command, bool *should_exit) {
   }
 }
 
+//Função Principal
 int main() {
   gpio_init(LED_R);
   gpio_init(LED_G);
@@ -81,6 +92,7 @@ int main() {
 
   sleep_ms(1000);
 
+  // Comandos que serão executados pelo usuário escrevendo no terminal
   printf("Available commands:\n");
   printf(" - green\n");
   printf(" - blue\n");
@@ -93,14 +105,14 @@ int main() {
   fflush(stdout);
 
   while (!should_exit) {
-    printf("Enter a command: ");
+    printf("Insira um Comando: ");
     fflush(stdout);
     scanf("%31s", command);
     command[strcspn(command, "\n")] = 0;
     process_command(command, &should_exit);
   }
 
-  printf("Program terminated\n");
+  printf("Programa Finalizado\n");
 
   return 0;
 }
