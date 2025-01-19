@@ -33,7 +33,9 @@ Este projeto implementa o controle de LEDs RGB e de um buzzer usando a placa edu
 
 Você pode testar o circuito diretamente no simulador Wokwi clicando no botão abaixo:
 
-[![Teste no Wokwi](https://img.shields.io/badge/Simular%20no%20Wokwi-Testar%20Online-brightgreen)](https://wokwi.com/projects/420104833635443713)
+<a href="https://wokwi.com/projects/420104833635443713" target="_blank">
+  <img src="https://img.shields.io/badge/Simular%20no%20Wokwi-Testar%20Online-brightgreen" alt="Teste no Wokwi">
+</a>
 
 ---
 
@@ -41,7 +43,9 @@ Você pode testar o circuito diretamente no simulador Wokwi clicando no botão a
 
 Assista ao vídeo explicativo do projeto e veja os resultados obtidos:
 
-[![Vídeo Demonstrativo](https://img.shields.io/badge/Assistir-Vídeo-blue)](https://www.dropbox.com/scl/fi/jevku9wjif9zy1iechuxd/VID-20250109-WA0044.mp4?rlkey=4cb9qag7ziis20u8ivjgtvmdk&dl=0)
+<a href="https://www.dropbox.com/scl/fi/jevku9wjif9zy1iechuxd/VID-20250109-WA0044.mp4?rlkey=4cb9qag7ziis20u8ivjgtvmdk&dl=0" target="_blank">
+  <img src="https://img.shields.io/badge/Assistir-Vídeo-blue" alt="Vídeo Demonstrativo">
+</a>
 
 ---
 
