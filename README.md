@@ -33,7 +33,7 @@ Este projeto implementa o controle de LEDs RGB e de um buzzer usando a placa edu
 
 O circuito pode ser testado no **Wokwi** através do link abaixo:
 
-[![Teste no Wokwi](https://wokwi.com/projects/420534537166124033)](https://wokwi.com/projects/420534537166124033)
+[![Teste no Wokwi](https://wokwi.com/projects/420534537166124033)](https://wokwi.com/projects/420534537166124033)]
 
 ---
 
@@ -41,7 +41,7 @@ O circuito pode ser testado no **Wokwi** através do link abaixo:
 
 Confira o vídeo demonstrativo de como o código funciona na placa BitDogLab:
 
-[![Vídeo Demonstrativo de Funcionamento](https://drive.google.com/file/d/1GrivlEKLn7yDKzqDptErn85aSMD7J6Gw/view?usp=sharing)](https://drive.google.com/file/d/1GrivlEKLn7yDKzqDptErn85aSMD7J6Gw/view?usp=sharing)
+[![Vídeo Demonstrativo de Funcionamento](https://drive.google.com/file/d/1GrivlEKLn7yDKzqDptErn85aSMD7J6Gw/view?usp=sharing)](https://drive.google.com/file/d/1GrivlEKLn7yDKzqDptErn85aSMD7J6Gw/view?usp=sharing)]
 
 ---
 
