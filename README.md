@@ -43,7 +43,7 @@ Você pode testar o circuito diretamente no simulador Wokwi clicando no botão a
 
 Assista ao vídeo explicativo do projeto e veja os resultados obtidos:
 
-<a href="https://www.dropbox.com/scl/fi/jevku9wjif9zy1iechuxd/VID-20250109-WA0044.mp4?rlkey=4cb9qag7ziis20u8ivjgtvmdk&dl=0" target="_blank">
+<a href="https://drive.google.com/file/d/1GrivlEKLn7yDKzqDptErn85aSMD7J6Gw/view" target="_blank">
   <img src="https://img.shields.io/badge/Assistir-Vídeo-blue" alt="Vídeo Demonstrativo">
 </a>
 
